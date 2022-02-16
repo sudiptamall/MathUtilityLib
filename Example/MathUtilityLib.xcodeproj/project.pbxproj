@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00AA59D6688CF350222303FE /* MathUtilityLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MathUtilityLib.podspec; path = ../MathUtilityLib.podspec; sourceTree = "<group>"; };
+		00AA59D6688CF350222303FE /* MathUtilityLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MathUtilityLib.podspec; path = ../MathUtilityLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		06D8AD7DC712BC1175EC60D6 /* Pods-MathUtilityLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathUtilityLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-MathUtilityLib_Example/Pods-MathUtilityLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		085C0A76B803935B41003072 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		085C0A76B803935B41003072 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		463270E87D6E49ED0B5BC9A6 /* Pods-MathUtilityLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathUtilityLib_Example.release.xcconfig"; path = "Target Support Files/Pods-MathUtilityLib_Example/Pods-MathUtilityLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MathUtilityLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathUtilityLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7D0E9863CFEE6F2F8586D276 /* Pods_MathUtilityLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathUtilityLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		91F83A8A788961DBF400B2EE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		91F83A8A788961DBF400B2EE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C57D035A5522215C0E1C7856 /* Pods-MathUtilityLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathUtilityLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MathUtilityLib_Tests/Pods-MathUtilityLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F70A8CCABEACEC437735BFE9 /* Pods-MathUtilityLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathUtilityLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-MathUtilityLib_Tests/Pods-MathUtilityLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F7DDC2BC53BBF7572D6B799A /* Pods_MathUtilityLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathUtilityLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,7 +156,6 @@
 				C57D035A5522215C0E1C7856 /* Pods-MathUtilityLib_Tests.debug.xcconfig */,
 				F70A8CCABEACEC437735BFE9 /* Pods-MathUtilityLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
