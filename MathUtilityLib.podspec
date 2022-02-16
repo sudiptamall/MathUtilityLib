@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MathUtilityLib'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Demo Framework'
 
 # This description is used to generate tags and improve search results.
@@ -30,6 +30,12 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Classes/**/*'
   s.swift_version = '5.0'
+  s.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
+  s.user_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
   # s.resource_bundles = {
   #   'MathUtilityLib' => ['MathUtilityLib/Assets/*.png']
   # }
